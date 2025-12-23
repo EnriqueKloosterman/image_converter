@@ -35,7 +35,6 @@ Ejecuta el script principal para iniciar la aplicación:
 ```bash
 python image_converter.py
 ```
-*(Nota: Si tu archivo principal tiene otro nombre, por favor actualiza este comando).*
 
 ##  Crear Ejecutable (.exe)
 
