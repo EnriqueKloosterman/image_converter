@@ -33,7 +33,7 @@ Una aplicación de escritorio moderna y sencilla para convertir imágenes, const
 Ejecuta el script principal para iniciar la aplicación:
 
 ```bash
-python main.py
+python image_converter.py
 ```
 *(Nota: Si tu archivo principal tiene otro nombre, por favor actualiza este comando).*
 
@@ -42,7 +42,7 @@ python main.py
 Este proyecto incluye `pyinstaller` para generar un ejecutable independiente (sin necesidad de instalar Python en la máquina destino).
 
 ```bash
-pyinstaller --noconsole --onefile main.py
+pyinstaller --noconsole --onefile image_converter.py
 ```
 
 El archivo `.exe` se generará en la carpeta `dist`.
